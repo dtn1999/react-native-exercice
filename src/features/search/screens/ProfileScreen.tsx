@@ -1,115 +1,104 @@
 import React from "react";
-import { StyleSheet, ScrollView, Text, View, Image } from "react-native";
+import {
+  StyleSheet,
+  ScrollView,
+  Text,
+  View,
+  Image,
+  SafeAreaView,
+} from "react-native";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import Octicons from "@expo/vector-icons/Octicons";
+import { createStackNavigator } from "@react-navigation/stack";
+
 import Button from "../components/Button";
 import { useNavigation } from "@react-navigation/native";
+import { profileInfo } from "../data/dummyProfile";
+import { peopleNearBy } from "../data/dummyUserNearBy";
+import { ProfileCircle } from "../components/ProfileCircle";
+import { RowInfo } from "../components/RowInfo";
+import UserInfoComponent from "../components/UserInfo";
 
 interface Props {}
 
-const profileInfo = {
-  name: "John Doe",
-  age: 25,
-  city: "New York",
-  language: "English",
-  instagramLink: "https://www.instagram.com/johndoe/",
-  profilePicture: require("../../../../assets/images/profile.jpg"),
-  interests: [
-    "Rock Climbing",
-    "Swimming",
-    "Running & Jogging",
-    "Mountain Biking",
-    "Yoga",
-    "Hiking",
-  ],
-};
-
-interface RowInfoProps {
-  icon: any;
-  text: string;
-}
-const RowInfo: React.FC<RowInfoProps> = React.memo(({ icon, text }) => (
-  <View style={{ flexDirection: "row", alignItems: "center" }}>
-    <Text>{icon}</Text>
-    <Text style={{ marginHorizontal: 10, paddingVertical: 4 }}>{text}</Text>
-  </View>
-));
-
 const ProfileScreen: React.FC<Props> = React.memo(({}) => {
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
   const handleNavigation = () => {
-    navigation.navigate("MapScreen", {});
+    const people = findPeopleNearBy(profileInfo.interests);
+    navigation.navigate("CommunityScreen" as never, {
+      people,
+    });
   };
+  /**
+   * This function will help to find people near by based on the
+   * user's location and user's interests
+   * @param data
+   */
+  const findPeopleNearBy = (data: any) => {
+    // for now just return dummy data
+    return peopleNearBy;
+  };
+
   return (
-    <ScrollView style={styles.container}>
-      <View style={styles.profileImageContainer}>
+    <SafeAreaView style={{ flex: 1 }}>
+      <ScrollView style={styles.container}>
         <View
           style={{
-            width: 100,
-            height: 100,
-            borderRadius: 50,
-            overflow: "hidden",
+            width: "100%",
+            backgroundColor: "white",
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "flex-start",
+            paddingVertical: 20,
           }}
         >
-          <Image style={styles.image} source={profileInfo.profilePicture} />
+          <MaterialIcons
+            name="arrow-back-ios"
+            size={24}
+            color="#25292e"
+            onPress={() => {
+              navigation.goBack();
+            }}
+          />
+          <View>
+            <FontAwesome
+              name="gear"
+              size={24}
+              style={{ marginBottom: 8 }}
+              color="#25292e"
+            />
+            <FontAwesome name="star" size={24} color="#25292e" />
+          </View>
         </View>
-        <Text style={{ marginVertical: 5 }}>{profileInfo.name}</Text>
-      </View>
-      <View>
-        <Text style={{ fontSize: 18, fontWeight: "700", marginVertical: 4 }}>
-          Interests
-        </Text>
-        {profileInfo.interests.map((interest, index) => (
-          <Text
-            key={index}
-            style={{ marginHorizontal: 10, paddingVertical: 4 }}
-          >
-            {interest}
-          </Text>
-        ))}
-      </View>
-      <View>
-        <Text style={{ fontSize: 18, fontWeight: "700", marginVertical: 4 }}>
-          Personal Data
-        </Text>
-        <RowInfo
-          icon={<FontAwesome name="user-o" size={18} color="#25292e" />}
-          text={profileInfo.name}
-        />
-        <RowInfo
-          icon={<Octicons name="number" size={18} color="#25292e" />}
-          text={`${profileInfo.age} years old`}
-        />
-        <RowInfo
-          icon={
-            <MaterialIcons name="location-city" size={18} color="#25292e" />
-          }
-          text={profileInfo.city}
-        />
-        <RowInfo
-          icon={<MaterialIcons name="language" size={18} color="#25292e" />}
-          text={profileInfo.language}
-        />
-        <RowInfo
-          icon={<FontAwesome name="instagram" size={18} color="#25292e" />}
-          text={profileInfo.instagramLink}
-        />
-      </View>
-      <View style={{ marginVertical: 20 }}>
-        <Button onPress={handleNavigation} label="Publish my Position" />
-      </View>
-    </ScrollView>
+        <UserInfoComponent profileInfo={profileInfo} />
+        <View style={{ marginVertical: 20 }}>
+          <Button onPress={handleNavigation} label="Publish my Position" />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 });
 
-export default ProfileScreen;
+const Stack = createStackNavigator();
+
+export default function ProfileScreenNavigator() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen
+        name="ProfileScreen"
+        component={ProfileScreen}
+        options={{ header: () => null }}
+      />
+    </Stack.Navigator>
+  );
+}
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 20,
-    paddingTop: 100,
+    backgroundColor: "#fff",
   },
   profileImageContainer: {
     width: "100%",

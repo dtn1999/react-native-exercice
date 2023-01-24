@@ -4,11 +4,16 @@ import React from "react";
 interface Props {
   label: string;
   onPress: () => void;
+  icon?: any;
 }
-const Button: React.FC<Props> = ({ label, onPress }) => {
+const Button: React.FC<Props> = ({ label, onPress, icon }) => {
   return (
     <View style={styles.buttonContainer}>
-      <Pressable onPress={onPress}>
+      <Pressable
+        onPress={onPress}
+        style={{ flex: 1, alignItems: "center", flexDirection: "row" }}
+      >
+        {icon ?? null}
         <Text style={styles.buttonLabel}>{label}</Text>
       </Pressable>
     </View>
@@ -23,7 +28,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     justifyContent: "center",
     alignItems: "center",
-    paddingVertical: 10,
     color: "white",
   },
   buttonLabel: {

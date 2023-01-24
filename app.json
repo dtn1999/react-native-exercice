@@ -14,11 +14,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "de.fitness.app",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBkDUjN5vw9Jd_YOtjufMykuVxG88CFju4"
+      }
     },
     "android": {
       "adaptiveIcon": {
