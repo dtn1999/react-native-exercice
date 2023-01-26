@@ -4,7 +4,7 @@ export const profileInfo = {
     city: "New York",
     language: "English",
     instagramLink: "https://www.instagram.com/johndoe/",
-    profilePicture: require("../../../../assets/images/profile.jpg"),
+    profilePicture: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=800",
     interests: [
       "Rock Climbing",
       "Swimming",
