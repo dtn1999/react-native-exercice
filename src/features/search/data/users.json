@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "User 1",
+    "age": 30,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user1/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=599",
+    "interests": ["Fashion", "Travel", "Technology", "Food"],
+    "position": {
+      "latitude": 40.77780002139624,
+      "longitude": -74.1138347371288
+    }
+  },
+  {
+    "id": 2,
+    "name": "User 2",
+    "age": 45,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user2/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=553",
+    "interests": ["Volunteering", "Gaming", "Travel", "Yoga"],
+    "position": {
+      "latitude": 40.703932691978785,
+      "longitude": -73.92551757066742
+    }
+  },
+  {
+    "id": 3,
+    "name": "User 3",
+    "age": 58,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user3/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=491",
+    "interests": ["Hiking", "Camping", "Yoga", "Cooking"],
+    "position": {
+      "latitude": 40.757315820023344,
+      "longitude": -74.06179532362381
+    }
+  },
+  {
+    "id": 4,
+    "name": "User 4",
+    "age": 40,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user4/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=220",
+    "interests": ["Art", "Food", "Animals", "Sports"],
+    "position": {
+      "latitude": 40.62913382220411,
+      "longitude": -73.96389335554629
+    }
+  },
+  {
+    "id": 5,
+    "name": "User 5",
+    "age": 47,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user5/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=398",
+    "interests": ["Photography", "Animals", "Writing", "Reading"],
+    "position": {
+      "latitude": 40.674610177388956,
+      "longitude": -74.01100471996976
+    }
+  },
+  {
+    "id": 6,
+    "name": "User 6",
+    "age": 22,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user6/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=827",
+    "interests": ["Cooking", "Technology", "Fashion", "Hiking"],
+    "position": {
+      "latitude": 40.70501196208458,
+      "longitude": -74.08426927994243
+    }
+  },
+  {
+    "id": 7,
+    "name": "User 7",
+    "age": 34,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user7/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=285",
+    "interests": ["Animals", "Yoga", "Dancing", "Food"],
+    "position": {
+      "latitude": 40.79938517794531,
+      "longitude": -73.92968330443217
+    }
+  },
+  {
+    "id": 8,
+    "name": "User 8",
+    "age": 22,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user8/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=431",
+    "interests": ["Sports", "Fashion", "Hiking", "Volunteering"],
+    "position": {
+      "latitude": 40.76972441567497,
+      "longitude": -73.90482123059317
+    }
+  },
+  {
+    "id": 9,
+    "name": "User 9",
+    "age": 60,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user9/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=514",
+    "interests": ["Photography", "Technology", "Fashion", "Music"],
+    "position": {
+      "latitude": 40.75173642540221,
+      "longitude": -74.13307966863587
+    }
+  },
+  {
+    "id": 10,
+    "name": "User 10",
+    "age": 23,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user10/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=840",
+    "interests": ["Animals", "Cooking", "Food", "Hiking"],
+    "position": {
+      "latitude": 40.689138597326895,
+      "longitude": -73.94694481561571
+    }
+  }
+]
