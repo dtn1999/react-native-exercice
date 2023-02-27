@@ -2,19 +2,13 @@ import React from "react";
 import {
   StyleSheet,
   ScrollView,
-  Text,
   View,
-  Image,
   SafeAreaView,
   Linking,
 } from "react-native";
-import * as Sharing from "expo-sharing";
-import * as WebBrowser from "expo-web-browser";
 
 import Button from "../components/Button";
-import { useNavigation, useRoute } from "@react-navigation/native";
-import { profileInfo } from "../data/dummyProfile";
-import { peopleNearBy } from "../data/dummyUserNearBy";
+import { useRoute } from "@react-navigation/native";
 import UserInfoComponent from "../components/UserInfo";
 
 interface Props {}
@@ -25,17 +19,10 @@ const UserProfileScreen: React.FC<Props> = React.memo(({}) => {
   const handleShareOnInstagram = React.useCallback(async () => {
     console.log(person.profilePicture);
     // open instagram app at the user's profile
-    Linking.openURL(person.instagramLink);
+    const response = await Linking.openURL(person.instagramLink);
+    console.log(response);
   }, [person.instagramLink]);
-  /**
-   * This function will help to find people near by based on the
-   * user's location and user's interests
-   * @param data
-   */
-  const findPeopleNearBy = (data: any) => {
-    // for now just return dummy data
-    return peopleNearBy;
-  };
+
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <ScrollView style={styles.container}>

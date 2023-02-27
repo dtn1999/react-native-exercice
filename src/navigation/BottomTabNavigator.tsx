@@ -3,9 +3,10 @@ import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import ProfileScreen from "../features/search/screens/ProfileScreen";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { StatusBar } from "expo-status-bar";
-import CommunityScreen from "../features/search/screens/CommunityScreen";
 import CommunityScreenNavigator from "../features/search/screens/CommunityStackNagator";
 import HomeScreen from "../features/search/screens/HomeScreen";
+import FeedScreen from "../features/search/screens/FeedScreen";
+import AnalyticsScreen from "../features/search/screens/AnalyticsScreen";
 
 const Tab = createBottomTabNavigator();
 
@@ -25,7 +26,7 @@ export default function BottomTabNavigator() {
               />
             ),
           }}
-          component={ProfileScreen}
+          component={AnalyticsScreen}
         />
         <Tab.Screen
           name="CommunityScreen"
@@ -47,14 +48,14 @@ export default function BottomTabNavigator() {
           component={HomeScreen}
         />
         <Tab.Screen
-          name="Home3"
+          name="Feed"
           options={{
             title: "News",
             tabBarIcon: ({ color, size }) => (
               <MaterialIcons name="rss-feed" color={color} size={size} />
             ),
           }}
-          component={ProfileScreen}
+          component={FeedScreen}
         />
         <Tab.Screen
           name="Profile"

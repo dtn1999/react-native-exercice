@@ -6,7 +6,7 @@ export const peopleNearBy = [
     city: "New York",
     language: "English",
     instagramLink: "https://www.instagram.com/urielle_tchuente/",
-    profilePicture: require("../../../../assets/images/profile1.jpg"),
+    profilePicture: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=800",
     interests: [
       "Rock Climbing",
       "Swimming",
@@ -22,7 +22,7 @@ export const peopleNearBy = [
     city: "New York",
     language: "English",
     instagramLink: "https://www.instagram.com/urielle_tchuente/",
-    profilePicture: require("../../../../assets/images/profile2.jpg"),
+    profilePicture: "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=800",
     interests: [
       "Rock Climbing",
       "Swimming",
@@ -38,7 +38,7 @@ export const peopleNearBy = [
     city: "New York",
     language: "English",
     instagramLink: "https://www.instagram.com/urielle_tchuente/",
-    profilePicture: require("../../../../assets/images/profile3.jpg"),
+    profilePicture: "https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg?auto=compress&cs=tinysrgb&w=800",
     interests: [
       "Rock Climbing",
       "Swimming",
@@ -54,7 +54,7 @@ export const peopleNearBy = [
     city: "New York",
     language: "English",
     instagramLink: "https://www.instagram.com/urielle_tchuente/",
-    profilePicture: require("../../../../assets/images/profile4.jpg"),
+    profilePicture: "https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&w=800",
     interests: [
       "Rock Climbing",
       "Swimming",
@@ -70,7 +70,7 @@ export const peopleNearBy = [
     city: "New York",
     language: "English",
     instagramLink: "https://www.instagram.com/urielle_tchuente/",
-    profilePicture: require("../../../../assets/images/profile5.jpg"),
+    profilePicture: "https://images.pexels.com/photos/428361/pexels-photo-428361.jpeg?auto=compress&cs=tinysrgb&w=800",
     interests: [
       "Rock Climbing",
       "Swimming",
@@ -86,7 +86,7 @@ export const peopleNearBy = [
     city: "New York",
     language: "English",
     instagramLink: "https://www.instagram.com/urielle_tchuente/",
-    profilePicture: require("../../../../assets/images/profile6.jpg"),
+    profilePicture: "https://images.pexels.com/photos/1370750/pexels-photo-1370750.jpeg?auto=compress&cs=tinysrgb&w=800",
     interests: [
       "Rock Climbing",
       "Swimming",

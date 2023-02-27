@@ -51,6 +51,7 @@ const CommunityScreen: React.FC<Props> = React.memo(({}) => {
         style={styles.container}
         contentContainerStyle={{
           alignItems: "center",
+          height: "100%",
         }}
       >
         <View style={{ width: "100%" }}>
@@ -89,7 +90,13 @@ const CommunityScreen: React.FC<Props> = React.memo(({}) => {
         </View>
         {people.length === 0 ? (
           <View
-            style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
+            style={{
+              flex: 1,
+              justifyContent: "center",
+              alignItems: "center",
+              width: "100%",
+              height: "100%",
+            }}
           >
             <ActivityIndicator />
           </View>

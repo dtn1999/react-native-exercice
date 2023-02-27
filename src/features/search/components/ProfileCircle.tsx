@@ -16,7 +16,7 @@ export const ProfileCircle: React.FC<ProfileCircleProps> = React.memo(
           overflow: "hidden",
         }}
       >
-        <Image style={styles.image} source={profilePicture} />
+        <Image style={styles.image} source={{ uri: profilePicture }} />
       </View>
       <Text style={{ marginVertical: 5 }}>{name}</Text>
     </View>
