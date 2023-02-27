@@ -2,29 +2,29 @@
   {
     "id": 1,
     "name": "User 1",
-    "age": 30,
+    "age": 26,
     "city": "New York",
     "language": "French",
     "instagramLink": "https://www.instagram.com/user1/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=599",
-    "interests": ["Fashion", "Travel", "Technology", "Food"],
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=610",
+    "interests": ["Yoga", "Volunteering", "Gardening", "Gaming"],
     "position": {
-      "latitude": 40.77780002139624,
-      "longitude": -74.1138347371288
+      "latitude": 40.662518668007664,
+      "longitude": -73.89888840550633
     }
   },
   {
     "id": 2,
     "name": "User 2",
-    "age": 45,
+    "age": 55,
     "city": "New York",
-    "language": "Chinese",
+    "language": "Spanish",
     "instagramLink": "https://www.instagram.com/user2/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=553",
-    "interests": ["Volunteering", "Gaming", "Travel", "Yoga"],
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=793",
+    "interests": ["Art", "Food", "Writing", "Photography"],
     "position": {
-      "latitude": 40.703932691978785,
-      "longitude": -73.92551757066742
+      "latitude": 40.73939035210477,
+      "longitude": -74.04743425717805
     }
   },
   {
@@ -32,111 +32,662 @@
     "name": "User 3",
     "age": 58,
     "city": "New York",
-    "language": "Spanish",
+    "language": "Russian",
     "instagramLink": "https://www.instagram.com/user3/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=491",
-    "interests": ["Hiking", "Camping", "Yoga", "Cooking"],
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=404",
+    "interests": ["Music", "Movies", "Travel", "Gardening"],
     "position": {
-      "latitude": 40.757315820023344,
-      "longitude": -74.06179532362381
+      "latitude": 40.719436820327225,
+      "longitude": -73.88987436760095
     }
   },
   {
     "id": 4,
     "name": "User 4",
-    "age": 40,
+    "age": 21,
     "city": "New York",
-    "language": "French",
+    "language": "Russian",
     "instagramLink": "https://www.instagram.com/user4/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=220",
-    "interests": ["Art", "Food", "Animals", "Sports"],
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=223",
+    "interests": ["Movies", "Sports", "Cooking", "Gardening"],
     "position": {
-      "latitude": 40.62913382220411,
-      "longitude": -73.96389335554629
+      "latitude": 40.67108419595914,
+      "longitude": -74.12746418579007
     }
   },
   {
     "id": 5,
     "name": "User 5",
-    "age": 47,
+    "age": 27,
     "city": "New York",
-    "language": "Chinese",
+    "language": "Spanish",
     "instagramLink": "https://www.instagram.com/user5/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=398",
-    "interests": ["Photography", "Animals", "Writing", "Reading"],
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=409",
+    "interests": ["Camping", "Cooking", "Photography", "Hiking"],
     "position": {
-      "latitude": 40.674610177388956,
-      "longitude": -74.01100471996976
+      "latitude": 40.62314497930724,
+      "longitude": -73.9466085688923
     }
   },
   {
     "id": 6,
     "name": "User 6",
-    "age": 22,
+    "age": 44,
     "city": "New York",
-    "language": "Chinese",
+    "language": "French",
     "instagramLink": "https://www.instagram.com/user6/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=827",
-    "interests": ["Cooking", "Technology", "Fashion", "Hiking"],
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=878",
+    "interests": ["Writing", "Dancing", "Volunteering", "Fashion"],
     "position": {
-      "latitude": 40.70501196208458,
-      "longitude": -74.08426927994243
+      "latitude": 40.79398736739042,
+      "longitude": -74.08194579704498
     }
   },
   {
     "id": 7,
     "name": "User 7",
-    "age": 34,
+    "age": 27,
     "city": "New York",
-    "language": "Chinese",
+    "language": "English",
     "instagramLink": "https://www.instagram.com/user7/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=285",
-    "interests": ["Animals", "Yoga", "Dancing", "Food"],
-    "position": {
-      "latitude": 40.79938517794531,
-      "longitude": -73.92968330443217
-    }
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=132",
+    "interests": ["Animals", "Fashion", "Gardening", "Dancing"],
+    "position": { "latitude": 40.661117609305, "longitude": -74.04654536569912 }
   },
   {
     "id": 8,
     "name": "User 8",
-    "age": 22,
+    "age": 47,
     "city": "New York",
     "language": "French",
     "instagramLink": "https://www.instagram.com/user8/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=431",
-    "interests": ["Sports", "Fashion", "Hiking", "Volunteering"],
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=198",
+    "interests": ["Volunteering", "Music", "Camping", "Movies"],
     "position": {
-      "latitude": 40.76972441567497,
-      "longitude": -73.90482123059317
+      "latitude": 40.79767310666607,
+      "longitude": -73.99468287726685
     }
   },
   {
     "id": 9,
     "name": "User 9",
-    "age": 60,
+    "age": 48,
     "city": "New York",
-    "language": "French",
+    "language": "Russian",
     "instagramLink": "https://www.instagram.com/user9/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=514",
-    "interests": ["Photography", "Technology", "Fashion", "Music"],
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=337",
+    "interests": ["Writing", "Yoga", "Travel", "Dancing"],
     "position": {
-      "latitude": 40.75173642540221,
-      "longitude": -74.13307966863587
+      "latitude": 40.6657420913327,
+      "longitude": -74.01996992376299
     }
   },
   {
     "id": 10,
     "name": "User 10",
-    "age": 23,
+    "age": 31,
+    "city": "New York",
+    "language": "Russian",
+    "instagramLink": "https://www.instagram.com/user10/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=478",
+    "interests": ["Travel", "Music", "Writing", "Dancing"],
+    "position": {
+      "latitude": 40.73318863132816,
+      "longitude": -74.1025981934561
+    }
+  },
+  {
+    "id": 11,
+    "name": "User 11",
+    "age": 55,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user11/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=306",
+    "interests": ["Writing", "Movies", "Gaming", "Technology"],
+    "position": {
+      "latitude": 40.68694843710854,
+      "longitude": -74.09407728744735
+    }
+  },
+  {
+    "id": 12,
+    "name": "User 12",
+    "age": 42,
+    "city": "New York",
+    "language": "Russian",
+    "instagramLink": "https://www.instagram.com/user12/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=781",
+    "interests": ["Camping", "Hiking", "Photography", "Writing"],
+    "position": {
+      "latitude": 40.64079489740911,
+      "longitude": -74.04598073347533
+    }
+  },
+  {
+    "id": 13,
+    "name": "User 13",
+    "age": 52,
     "city": "New York",
     "language": "Spanish",
-    "instagramLink": "https://www.instagram.com/user10/",
-    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=840",
-    "interests": ["Animals", "Cooking", "Food", "Hiking"],
+    "instagramLink": "https://www.instagram.com/user13/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=155",
+    "interests": ["Gaming", "Movies", "Sports", "Gardening"],
     "position": {
-      "latitude": 40.689138597326895,
-      "longitude": -73.94694481561571
+      "latitude": 40.77225784883981,
+      "longitude": -74.05210773750727
+    }
+  },
+  {
+    "id": 14,
+    "name": "User 14",
+    "age": 28,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user14/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=589",
+    "interests": ["Travel", "Technology", "Gardening", "Volunteering"],
+    "position": {
+      "latitude": 40.71033748113992,
+      "longitude": -74.06604338298415
+    }
+  },
+  {
+    "id": 15,
+    "name": "User 15",
+    "age": 24,
+    "city": "New York",
+    "language": "English",
+    "instagramLink": "https://www.instagram.com/user15/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=488",
+    "interests": ["Hiking", "Volunteering", "Animals", "Photography"],
+    "position": {
+      "latitude": 40.754280832061866,
+      "longitude": -74.00358447281276
+    }
+  },
+  {
+    "id": 16,
+    "name": "User 16",
+    "age": 41,
+    "city": "New York",
+    "language": "Russian",
+    "instagramLink": "https://www.instagram.com/user16/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=292",
+    "interests": ["Sports", "Reading", "Fashion", "Volunteering"],
+    "position": {
+      "latitude": 40.77254378691409,
+      "longitude": -74.02798210857576
+    }
+  },
+  {
+    "id": 17,
+    "name": "User 17",
+    "age": 51,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user17/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=136",
+    "interests": ["Reading", "Volunteering", "Camping", "Writing"],
+    "position": {
+      "latitude": 40.74900654016821,
+      "longitude": -74.11151349641578
+    }
+  },
+  {
+    "id": 18,
+    "name": "User 18",
+    "age": 54,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user18/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=767",
+    "interests": ["Animals", "Yoga", "Photography", "Writing"],
+    "position": {
+      "latitude": 40.65955880060671,
+      "longitude": -74.0896464613619
+    }
+  },
+  {
+    "id": 19,
+    "name": "User 19",
+    "age": 36,
+    "city": "New York",
+    "language": "Russian",
+    "instagramLink": "https://www.instagram.com/user19/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=577",
+    "interests": ["Travel", "Animals", "Gaming", "Fashion"],
+    "position": {
+      "latitude": 40.70734316780811,
+      "longitude": -73.9794405927998
+    }
+  },
+  {
+    "id": 20,
+    "name": "User 20",
+    "age": 40,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user20/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=53",
+    "interests": ["Fashion", "Volunteering", "Technology", "Yoga"],
+    "position": {
+      "latitude": 40.63181341282121,
+      "longitude": -73.95663678493871
+    }
+  },
+  {
+    "id": 21,
+    "name": "User 21",
+    "age": 56,
+    "city": "New York",
+    "language": "Russian",
+    "instagramLink": "https://www.instagram.com/user21/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=694",
+    "interests": ["Fashion", "Hiking", "Movies", "Volunteering"],
+    "position": {
+      "latitude": 40.67061864083568,
+      "longitude": -73.98931135470104
+    }
+  },
+  {
+    "id": 22,
+    "name": "User 22",
+    "age": 39,
+    "city": "New York",
+    "language": "Russian",
+    "instagramLink": "https://www.instagram.com/user22/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=996",
+    "interests": ["Food", "Dancing", "Travel", "Fashion"],
+    "position": {
+      "latitude": 40.63912429420487,
+      "longitude": -73.87689136557532
+    }
+  },
+  {
+    "id": 23,
+    "name": "User 23",
+    "age": 29,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user23/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=74",
+    "interests": ["Yoga", "Reading", "Hiking", "Technology"],
+    "position": {
+      "latitude": 40.72780887189094,
+      "longitude": -74.11607677171267
+    }
+  },
+  {
+    "id": 24,
+    "name": "User 24",
+    "age": 18,
+    "city": "New York",
+    "language": "English",
+    "instagramLink": "https://www.instagram.com/user24/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=484",
+    "interests": ["Camping", "Fashion", "Movies", "Gaming"],
+    "position": {
+      "latitude": 40.703136133525106,
+      "longitude": -73.89339335595992
+    }
+  },
+  {
+    "id": 25,
+    "name": "User 25",
+    "age": 48,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user25/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=888",
+    "interests": ["Food", "Cooking", "Writing", "Music"],
+    "position": {
+      "latitude": 40.75460593151462,
+      "longitude": -73.96967618360009
+    }
+  },
+  {
+    "id": 26,
+    "name": "User 26",
+    "age": 24,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user26/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=784",
+    "interests": ["Food", "Animals", "Volunteering", "Writing"],
+    "position": {
+      "latitude": 40.74996766588408,
+      "longitude": -73.98610006864656
+    }
+  },
+  {
+    "id": 27,
+    "name": "User 27",
+    "age": 34,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user27/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=319",
+    "interests": ["Photography", "Yoga", "Fashion", "Animals"],
+    "position": {
+      "latitude": 40.76938057369994,
+      "longitude": -73.89062721180873
+    }
+  },
+  {
+    "id": 28,
+    "name": "User 28",
+    "age": 51,
+    "city": "New York",
+    "language": "English",
+    "instagramLink": "https://www.instagram.com/user28/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=516",
+    "interests": ["Music", "Dancing", "Food", "Volunteering"],
+    "position": {
+      "latitude": 40.76019824572959,
+      "longitude": -74.02010666772733
+    }
+  },
+  {
+    "id": 29,
+    "name": "User 29",
+    "age": 34,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user29/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=755",
+    "interests": ["Dancing", "Travel", "Movies", "Camping"],
+    "position": {
+      "latitude": 40.72068899559575,
+      "longitude": -73.99805099237857
+    }
+  },
+  {
+    "id": 30,
+    "name": "User 30",
+    "age": 20,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user30/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=792",
+    "interests": ["Technology", "Volunteering", "Writing", "Movies"],
+    "position": {
+      "latitude": 40.722430859037466,
+      "longitude": -73.94468151724689
+    }
+  },
+  {
+    "id": 31,
+    "name": "User 31",
+    "age": 37,
+    "city": "New York",
+    "language": "English",
+    "instagramLink": "https://www.instagram.com/user31/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=57",
+    "interests": ["Gaming", "Camping", "Movies", "Sports"],
+    "position": {
+      "latitude": 40.7288149029619,
+      "longitude": -73.88910864101187
+    }
+  },
+  {
+    "id": 32,
+    "name": "User 32",
+    "age": 52,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user32/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=818",
+    "interests": ["Art", "Cooking", "Music", "Technology"],
+    "position": {
+      "latitude": 40.650375156765605,
+      "longitude": -74.09607361552195
+    }
+  },
+  {
+    "id": 33,
+    "name": "User 33",
+    "age": 47,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user33/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=457",
+    "interests": ["Music", "Cooking", "Yoga", "Reading"],
+    "position": {
+      "latitude": 40.715613753914425,
+      "longitude": -74.01986387903304
+    }
+  },
+  {
+    "id": 34,
+    "name": "User 34",
+    "age": 32,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user34/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=878",
+    "interests": ["Art", "Reading", "Volunteering", "Camping"],
+    "position": {
+      "latitude": 40.77145313059633,
+      "longitude": -74.00254131177164
+    }
+  },
+  {
+    "id": 35,
+    "name": "User 35",
+    "age": 48,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user35/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=834",
+    "interests": ["Fashion", "Gardening", "Travel", "Music"],
+    "position": {
+      "latitude": 40.641820715284126,
+      "longitude": -73.95270831144805
+    }
+  },
+  {
+    "id": 36,
+    "name": "User 36",
+    "age": 49,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user36/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=218",
+    "interests": ["Gaming", "Photography", "Hiking", "Food"],
+    "position": {
+      "latitude": 40.77553638326488,
+      "longitude": -73.88194881760057
+    }
+  },
+  {
+    "id": 37,
+    "name": "User 37",
+    "age": 28,
+    "city": "New York",
+    "language": "Russian",
+    "instagramLink": "https://www.instagram.com/user37/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=962",
+    "interests": ["Gardening", "Fashion", "Gaming", "Yoga"],
+    "position": {
+      "latitude": 40.756136165037795,
+      "longitude": -74.03261573567659
+    }
+  },
+  {
+    "id": 38,
+    "name": "User 38",
+    "age": 23,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user38/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=278",
+    "interests": ["Technology", "Movies", "Gardening", "Travel"],
+    "position": { "latitude": 40.78950389982328, "longitude": -74.097402792648 }
+  },
+  {
+    "id": 39,
+    "name": "User 39",
+    "age": 34,
+    "city": "New York",
+    "language": "Russian",
+    "instagramLink": "https://www.instagram.com/user39/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=665",
+    "interests": ["Fashion", "Cooking", "Art", "Photography"],
+    "position": {
+      "latitude": 40.781542455487575,
+      "longitude": -73.94528302715216
+    }
+  },
+  {
+    "id": 40,
+    "name": "User 40",
+    "age": 41,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user40/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=729",
+    "interests": ["Photography", "Food", "Animals", "Yoga"],
+    "position": {
+      "latitude": 40.74543961469381,
+      "longitude": -73.91521395432181
+    }
+  },
+  {
+    "id": 41,
+    "name": "User 41",
+    "age": 37,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user41/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=107",
+    "interests": ["Gaming", "Writing", "Sports", "Hiking"],
+    "position": {
+      "latitude": 40.778214924262564,
+      "longitude": -74.09876929500939
+    }
+  },
+  {
+    "id": 42,
+    "name": "User 42",
+    "age": 31,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user42/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=266",
+    "interests": ["Gardening", "Photography", "Hiking", "Technology"],
+    "position": {
+      "latitude": 40.71375112170657,
+      "longitude": -73.98629969126455
+    }
+  },
+  {
+    "id": 43,
+    "name": "User 43",
+    "age": 43,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user43/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=428",
+    "interests": ["Reading", "Cooking", "Photography", "Sports"],
+    "position": {
+      "latitude": 40.75326853891386,
+      "longitude": -73.98820975509395
+    }
+  },
+  {
+    "id": 44,
+    "name": "User 44",
+    "age": 55,
+    "city": "New York",
+    "language": "English",
+    "instagramLink": "https://www.instagram.com/user44/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=277",
+    "interests": ["Gaming", "Art", "Music", "Sports"],
+    "position": {
+      "latitude": 40.67133907880153,
+      "longitude": -73.93404823875169
+    }
+  },
+  {
+    "id": 45,
+    "name": "User 45",
+    "age": 35,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user45/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=232",
+    "interests": ["Music", "Reading", "Movies", "Photography"],
+    "position": {
+      "latitude": 40.728423321770876,
+      "longitude": -73.99152882717743
+    }
+  },
+  {
+    "id": 46,
+    "name": "User 46",
+    "age": 54,
+    "city": "New York",
+    "language": "Chinese",
+    "instagramLink": "https://www.instagram.com/user46/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=250",
+    "interests": ["Technology", "Sports", "Music", "Yoga"],
+    "position": {
+      "latitude": 40.69075993800788,
+      "longitude": -73.99704743551878
+    }
+  },
+  {
+    "id": 47,
+    "name": "User 47",
+    "age": 40,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user47/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=989",
+    "interests": ["Food", "Gaming", "Gardening", "Art"],
+    "position": { "latitude": 40.643039276417, "longitude": -73.91526188973181 }
+  },
+  {
+    "id": 48,
+    "name": "User 48",
+    "age": 18,
+    "city": "New York",
+    "language": "French",
+    "instagramLink": "https://www.instagram.com/user48/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=298",
+    "interests": ["Travel", "Technology", "Fashion", "Sports"],
+    "position": {
+      "latitude": 40.75042494054457,
+      "longitude": -73.96194892933245
+    }
+  },
+  {
+    "id": 49,
+    "name": "User 49",
+    "age": 30,
+    "city": "New York",
+    "language": "Spanish",
+    "instagramLink": "https://www.instagram.com/user49/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=871",
+    "interests": ["Gaming", "Sports", "Animals", "Hiking"],
+    "position": {
+      "latitude": 40.693910936678556,
+      "longitude": -73.93351855285074
+    }
+  },
+  {
+    "id": 50,
+    "name": "User 50",
+    "age": 40,
+    "city": "New York",
+    "language": "English",
+    "instagramLink": "https://www.instagram.com/user50/",
+    "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=276",
+    "interests": ["Dancing", "Food", "Camping", "Technology"],
+    "position": {
+      "latitude": 40.773722249188246,
+      "longitude": -73.89491441976136
     }
   }
 ]
