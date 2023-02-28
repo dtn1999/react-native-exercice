@@ -1,38 +1,4 @@
 {
-  "expo": {
-    "name": "josey-exercice-sol",
-    "slug": "josey-exercice-sol",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "updates": {
-      "fallbackToCacheTimeout": 0
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "de.fitness.app",
-      "config": {
-        "googleMapsApiKey": "AIzaSyBkDUjN5vw9Jd_YOtjufMykuVxG88CFju4"
-      }
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "package": "de.fitness.app"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
-  }
+  "name": "fitnessApp",
+  "displayName": "fitnessApp"
 }
