@@ -1,0 +1,14 @@
+{
+  "id": 9,
+  "name": "User 9",
+  "age": 60,
+  "city": "New York",
+  "language": "French",
+  "instagramLink": "https://www.instagram.com/user9/",
+  "profilePicture": "https://source.unsplash.com/random/500x500/?portrait&sig=514",
+  "interests": ["Photography", "Technology", "Fashion", "Music"],
+  "position": {
+    "latitude": 40.75173642540221,
+    "longitude": -74.13307966863587
+  }
+}
